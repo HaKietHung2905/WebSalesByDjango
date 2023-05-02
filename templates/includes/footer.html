@@ -1,23 +1,60 @@
 {% load static %}
+<link rel="stylesheet" href="{%static 'css/custom.css'%}">
 
 <!-- ========================= FOOTER ========================= -->
-<footer class="section-footer border-top">
+<footer class="section-footer border-top" id="footer-cus">
+    <div class="container">
+        <div class="col-md-12" style="padding-top: 10px;">
+            <h3 style="text-align: center; ">Join now</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <section class="m-subscribe1">
+                    <div class="sign-up" style="display: table; padding-bottom:10px;" >
+                        <form class="form-inline col-md-10" style="display: table-cell;">
+                            <input type="email" class="form-control" placeholder="Email address..." style="width: 100%; border: none; background: #202020; color:white;">
+                        </form>
+                        <button type="submit" class="btn col-md-8" style="color: white; width: 150px;">Sign Up</button>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-2"></div>
+
+        </div>
+
+    </div>
     <div class="container">
         <section class="footer-bottom border-top row">
-            <div class="col-md-2">
-                <p class="text-muted"> &copy 2019 Company name </p>
+            <div class="col-md-3">
+                <h3 class="text-muted">About</h3><br>
+                <span>About us</span><br>
+                <span>Contact us</span><br>
+                <span>Pre-Order Policy</span><br>
+                <span>Sell to Us</span><br>
             </div>
-            <div class="col-md-8 text-md-center">
-                <span class="px-2">info@pixsellz.io</span>
-                <span class="px-2">+879-332-9375</span>
-                <span class="px-2">Street name 123, Avanue abc</span>
+            <div class="col-md-3">
+                <h3 class="text-muted"> Contact With Us</h3> <br>
+                <span>Yu-Gi-Oh</span><br>
+                <span>Pokémon</span><br>
+                <span>Sealed Product</span>
+                <span>Shipping Information</span><br>
+                <span>Refund & Return Policy</span><br>
+                <span>Pre-Order Policy</span><br>
             </div>
-            <div class="col-md-2 text-md-right text-muted">
+            <div class="col-md-3 text-md-right text-muted">
+                <br>
                 <i class="fab fa-lg fa-cc-visa"></i>
                 <i class="fab fa-lg fa-cc-paypal"></i>
                 <i class="fab fa-lg fa-cc-mastercard"></i>
             </div>
         </section>
-    </div><!-- //container -->
+    </div>
+    <div>
+        <div class="col-md-3">
+            <span>Copyright 2023</span>
+        </div>
+    </div>
+    <!-- //container -->
 </footer>
 <!-- ========================= FOOTER END // ========================= -->
